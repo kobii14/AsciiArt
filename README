@@ -9,20 +9,7 @@ the Math methode - Abs.
 
 
 4_2
-i used collection of type HashMap and also Set - Set to keep the chars set and prevent duplications
+I used collection of type HashMap and also Set - Set to keep the chars set and prevent duplications
 and the hashMap to save for later brightness level of images that might be used in the future and by
 that to save complexity time.
-
-Algorithm 1 -
-this algorithm returns the number of duplications of a number in an array. It checks if the number of
-a specific index is in the list and look for it in 2 different kunds of loops.
-time complexity - O(n) + O(n) one for while loop and one for for loop. the total is O(n) with no extra
-space.
-
-Algorithm 2 -
-this algorithm returns the number of unique sequences if Morse Code of words. first it uses a private methode
-to create the translations of the English letters to morse code and then runs on the words array and appends
- to a new array every time there is a new word.
-time complexity is O(S) while S is the sum of the words lengths because it runs in 2 loops but one of them
- runs only in the length of the word's length.
 
